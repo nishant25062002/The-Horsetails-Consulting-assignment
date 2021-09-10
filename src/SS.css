@@ -1,0 +1,168 @@
+.ss{
+    background-color: #333333;
+    color: white;
+    height: 100vh;
+    padding-top: 1vh;
+}
+.header{
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.header__first{
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+}
+.header__insertIcon{
+    color: yellow;
+}
+.header__sec{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6e6a6a;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 8px;
+}
+.header__input{
+    border-radius: 2px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__input>input{
+    background-color: #6e6a6a;
+    color: white;
+    outline: none;
+    border: none;
+    width: 48vw;
+    height: 5vh;
+}
+::placeholder{
+    color: white;
+}
+.header__third{
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    justify-content: space-around;
+}
+.header__thirdFir{
+    display: flex;
+    width: 10vw;
+    color: rgb(160, 156, 156);
+    align-items: center;
+    justify-content: space-around;
+}
+.header__thirdTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divider{
+    /* color: rgb(250, 250, 250); */
+    background-color: lightgray;
+}
+.body{
+    display: flex;
+}
+.body__sidebar{
+    flex: 0.20;
+}
+.body__boxbar{
+    flex: 0.75;
+}
+.header__insert{
+    display: flex;
+}
+.header__menu{
+    padding: 0 12px 0 12px;
+}
+.header__div{
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 12px;
+}
+.header__appIcon{
+    padding-right: 12px;
+}
+.sidebar__firIcon{
+    display: flex;
+    padding: 12px;
+}
+.sidebar__firIcon__sec{
+    padding-left: 12px;
+}
+.sidebar__firIcon:hover{
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: rgba(68, 47, 8, 0.692);
+}
+.body__down{
+    display: flex;
+    margin-top: 10vh;
+}
+.first__div{
+       margin: 2px;
+       padding: 12px;
+       width: 17vw;
+       height: 20vh;
+       border: 1px solid;
+       border-radius: 12px;
+}
+.second__div{
+    margin: 2px 12px 2px 12px;
+    width: 17vw;
+    height: 20vh;
+    border: 1px solid;
+    border-radius: 12px;   
+}
+.third__div{
+    margin: 2px;
+    width: 17vw;
+    height: 25vh;
+    border: 1px solid;
+    border-radius: 12px;
+}
+.body__top{
+    padding-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.body__topinput{
+    display: flex;
+    height: fit-content;
+    padding: 6px 12px 6px 12px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    width: 40vw;
+}
+.body__topinput > input{
+    width:25vw;
+    padding: 6px 12px 6px 12px;
+    height:3vh;
+    background-color: #333333;
+    outline: none;
+    border: none;
+    color: white;
+}
+.body__topinput__I{
+    display: flex;
+    width: 12vw;
+    align-items: center;
+    justify-content: space-around;
+}
+.first__divFirst{
+    display: flex;
+    padding: 12px;
+}
+.first__divFirstcheckbox{
+    padding-left: 12px;
+}
